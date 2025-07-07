@@ -1,4 +1,7 @@
-print('Welcome to the YouTube Channel Name Generator:')
-user_name = input('What is your nickname?\n')
-content = input('What is your channel about?\n')
-print('You could name your channel('+content+'with'+user_name)
+#take seconds from the user
+user_input = int(input('Enter the duration in seconds:'))
+#convert
+hour = 3600
+t =  user_input//hour
+print('the duration is:',t,'hour',user_input//60,'minutes and',user_input%60)
+#print hours,minutes,and seconds.
